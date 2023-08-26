@@ -1,0 +1,70 @@
+
+.stall .stallImg img {
+    width: 260px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.stall .stallImg {
+    cursor: pointer;
+    position: relative;
+}
+
+.stall .stallImg::before {
+    content: '50% OFF UPTO $100';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 22px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin: 10px 10px;
+}
+
+.stall .des {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+}
+
+.stall .des h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.stall .des .rating svg {
+    transform: scale(1.4);
+    color: green;
+}
+
+.stall .des .rating p {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px; 
+}
+
+.stall .des .rating {
+    display: flex;
+    align-items: center;
+}
+
+.stall .des .p {
+    color: rgba(2, 6, 12, 0.6);
+    font-size: 16px;
+}
+
+.stall {
+    transition: all ease-in 0.3s;
+}
+
+.stall:hover {
+    transform: scale(0.9);
+}
+
+.stalls {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0;
+    margin-bottom: 0px;
+}

@@ -1,0 +1,198 @@
+.download {
+    display: flex;
+    margin: 0 200px;
+    padding: 20px;
+}
+
+.download .heading  {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: rgba(2, 6, 12, 0.75);
+    width: 40%;
+    margin-right: 80px;
+}
+
+.down {
+    background-color: rgb(240, 240, 245);
+}
+
+.btn1 {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.btn1 svg {
+    transform: scale(1.8);
+    color: white;
+    margin-right: 20px;
+}
+
+.x-C {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.x-C h2 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.x-C h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.con1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fotter {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+
+.fotter2 {
+    display: flex;
+    margin: 0 200px;
+    justify-content: space-between;
+    width: 65%;
+    margin-bottom: 50px;
+}
+
+.fotter2 .D1 .d1-logo  {
+    display: flex;
+    align-items: center;
+}
+
+.fotter2 .D1 .d1-logo svg {
+    transform: scale(2);
+    margin: 10px 0;
+    margin-right: 10px;
+}
+
+.fotter2 .D1 .d1-logo h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.fotter2 .D1 .d1-2 {
+    display: flex;
+    align-items:flex-start;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.fotter2 .D1 .d1-2 svg {
+    transform: scale(1.2);
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.D2  {
+    display: flex;
+    flex-direction: column;
+}
+
+.D2 h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.D2 .D2-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.D2 .D2-1 a {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.D3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.D3 .D3-1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.D3 .D3-1 h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.D3 .D3-1 .D3-11 {
+    display: flex;
+    flex-direction: column;
+}
+
+.D3 .D3-1 .D3-11 a {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.D3 .D3-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.D3 .D3-2 h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.D3 .D3-2 .D3-21 {
+    display: flex;
+    flex-direction: column;
+}
+
+.D3 .D3-2 .D3-21 a {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.D-4  {
+    display: flex;
+    flex-direction: column;
+}
+
+.D-4 h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.D-4 .D-41{
+    display: flex;
+    flex-direction: column;
+}
+
+.D-4 .D-41 a {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.6);
+}

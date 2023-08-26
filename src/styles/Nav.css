@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.mainNav {
+    margin: 20px 100px;
+    box-shadow: 0 15px 40px -20px rgba(40, 44, 63, .15);
+}
+
+.navsec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navsec .logo {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+}
+
+.location span {
+    margin-right: 12px;
+    font-weight: bold;
+    position: relative;
+    cursor: pointer;
+}
+
+.location span::after {
+    content: '';
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    right: 0;
+    border-top: 2px solid black;
+    z-index: -1;
+}
+
+.location span:hover {
+    color: rgb(255, 77, 0);
+}
+
+.location span:hover::after {
+    border-top: 2px solid rgb(255, 77, 0);
+}
+
+.location .downIcon {
+    cursor: pointer;
+    transform: scale(1.4);
+    margin: 10px;
+    color: rgb(255, 77, 0);
+}
+
+.navLinks {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLinks .icons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navLinks .icons:hover {
+    color: rgb(255, 77, 0);
+}
+
+.navLinks .icons a {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navLinks .icons svg {
+    transform: scale(1.4);
+}
